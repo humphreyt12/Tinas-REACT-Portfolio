@@ -21,7 +21,7 @@ const Home : NextPage = ({projectsArray, iconsArray} : any) => {
 
     }, [])
     return (
-        <Layout desc={`Vito Medlej, A lebanese professional software engineer in Beirut, Can develop all kinds of websites and web/mobile applications according to your needs`} title='Vito Medlej Fullstack Developer Personal Portfolio Website'>
+        <Layout desc={`Tina Humphrey, A professional software engineer in Florida, Can develop all kinds of websites and web/mobile applications according to your needs`} title='Tina Humphrey Fullstack Developer Personal Portfolio Website'>
 
             <Box
                 sx={{
