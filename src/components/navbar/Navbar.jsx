@@ -16,9 +16,9 @@ const Navbar = () => {
                 >Tina Humphrey
                 </motion.span>
                 <div className="contact">
-                    <a target = "_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="" /></a>
-                    <a target = "_blank" href="https://github.com/humphreyt12"><img src="/github.png" alt="" /></a>
-                    <a target = "_blank" href="humphrey14t@gmail.com"><img src="/gmail.png" alt="" /></a>
+                    <a target = "_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="Tina's LinkedIn Link" /></a>
+                    <a target = "_blank" href="https://github.com/humphreyt12"><img src="/github.png" alt="Tina's Github Profile" /></a>
+                    <a target = "_blank" href="humphrey14t@gmail.com"><img src="/gmail.png" alt="Tina's Gmail" /></a>
                 </div>
             </div>
         </div>
