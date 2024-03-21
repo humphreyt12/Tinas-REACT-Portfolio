@@ -16,15 +16,15 @@ const variants = {
    },      
 };
 
-//Defining variants
+//Defining itemVariants
 const itemVariants = {
     open: {
      y: 0,
-     opacity: 1,
+     opacity:1,
     },
     closed: {
      y: 50,
-     opacity: 0,
+     opacity:0,
     },      
  };
 

@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="wrapper">
-                <div className=".textContainer">
+                <div className="textContainer">
                     <h2>TINA HUMPHREY</h2>
                     <h1>Full Stack Web Developer</h1>
                     <div className="buttons">
@@ -17,8 +17,11 @@ const Hero = () => {
                 <img src ="/scroll.png" alt="Scroll Icon" />
                 </div> 
             </div> 
+            <div className="slidingTextContainer">
+                Travel Enthusiast
+            </div>
             <div className="imageContainer">
-                <img src="/hero.png" alt="Hero Picture" />
+                <img src="/hero.png" alt="Hero" />
             </div>  
         </div>
     );
