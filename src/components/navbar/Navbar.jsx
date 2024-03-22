@@ -1,4 +1,4 @@
-import Sidebar from "../sidebar/sidebar";
+import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss"
 import {motion} from "framer-motion"
 
@@ -13,7 +13,7 @@ const Navbar = () => {
                 initial={{ opacity:0, scale:0.5 }} 
                 animate={{ opacity:1, scale:1 }} 
                 transition={{ duration:0.5 }}
-                >Tina Humphrey
+                >TH
                 </motion.span>
                 <div className="contact">
                     <a target = "_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="Tina's LinkedIn Link" /></a>

@@ -4,6 +4,7 @@
 import "./hero.scss";
 
 const Hero = () => {
+    
     return (
         <div className="hero">
             <div className="wrapper">
@@ -11,7 +12,7 @@ const Hero = () => {
                     <h2>TINA HUMPHREY</h2>
                     <h1>Full Stack Web Developer</h1>
                     <div className="buttons">
-                        <button>View my Projects</button>
+                        <button>View Latest Projects</button>
                         <button>Contact Me</button>
                     </div>
                 <img src ="/scroll.png" alt="Scroll Icon" />
