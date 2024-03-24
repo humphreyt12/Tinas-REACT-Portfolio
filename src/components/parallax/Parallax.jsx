@@ -1,14 +1,34 @@
+//Framer Motion Parallax 
+import { useRef} from "react";
 import "./parallax.scss";
-import {motion} from "framer-motion";
+import {motion, useScroll, useTransform} from "framer-motion";
 
 const Parallax = ({type}) => {
+    const ref = useRef()
+
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset:["start start", "end start"] //When animation starts and ends at the bottom of the viewpoint
+    });
+    //Defining yText and yBg to contorl animation speed
+    const yText = useTransform(scrollYProgress, [0,1], ["0px", "500%"]); 
+    const yBg = useTransform(scrollYProgress, [0,1], ["0px", "100%"]); 
+    
     return (
-        <div className="parallax" style={{background:type === "skills" 
+        <div className="parallax" 
+        ref={ref}
+        style={{background: type === "skills" 
         ? "linear-gradient(180deg, #111132, #0c0c1d)" 
         : "linear-gradient(180deg, #111132, #505064)",
         }}>
-            <motion.h1>{type==="skills" ? "What I Can Offer?" : "View My Latests Projects"}</motion.h1>
+            <motion.h1 style={{ y: yText }}>
+                {type==="skills" ? "My Skills" : "View My Latest Projects"}</motion.h1>
             <motion.div className="mountains"></motion.div>
+            <motion.div className="sun" style={{y: yBg, backgroundImage: `url(${
+                type === "skills" ? "/public/sun.png" : "/public/clouds.png"
+            })`,
+            }}>
+            </motion.div>
         </div>
     );
 };
