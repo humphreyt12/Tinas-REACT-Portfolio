@@ -31,7 +31,7 @@ const itemVariants = {
 //Defining the Links as items
 const Links = () => {
     
-    const items = ["Homepage", "Skills", "Projects", "Resume", "Contact", "About Me"];
+    const items = ["Homepage", "About Me", "Skills", "Projects", "Resume", "Contact" ];
 
  //Returning the links, as user clicks on the links in the sidebar, the page scrolls down to that specific link   
     return (

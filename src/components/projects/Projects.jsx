@@ -92,7 +92,7 @@ const Projects = () => {
          <div className="projects" ref={ref}>
             <div className="progress">
                 <h1>Featured Works</h1>
-                <motion.div className="progressBar" style={{scaleX}}></motion.div>
+                <motion.div style={{scaleX}} className="progressBar"></motion.div>
             </div>
         {items.map(item => (
             <Single item={item} key={item.id} />
