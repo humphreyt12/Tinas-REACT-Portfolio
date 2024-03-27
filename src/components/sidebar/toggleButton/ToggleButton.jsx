@@ -14,7 +14,7 @@ const ToggleButton = ({ setOpen }) => {
                 }}/>
                 <motion.path strokeWidth="3" stroke="black" strokeLinecap="round" d="M 2 9.243 L 20 9.423"
                 variants={{
-                    closed: {opacity:1}, 
+                    closed: {opacity: 1}, 
                     open: {opacity: 0},
                  }}/>
                 <motion.path strokeWidth="3" stroke="black" strokeLinecap="round" variants={{

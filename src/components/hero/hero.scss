@@ -1,8 +1,8 @@
 // Styling the Hero Page
 .hero {
     height: calc(100vh - 100px);
-    overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow: hidden;
     position: relative;
 
     .wrapper {
@@ -11,16 +11,17 @@
     margin: auto;
    
     .textContainer{
-        width: 50%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 40px;
+        width: 50%;
 
         h2{
             font-size: 24px;
             color: rebeccapurple;
+            text-transform: uppercase;
             letter-spacing: 10px;
         }
 
@@ -38,8 +39,7 @@
                 margin-right: 20px;
                 cursor: pointer;
                 font-weight: 300;
-            }
-            
+            } 
         }
         
 
@@ -48,15 +48,7 @@
         }
     }
 }
-
-    .imageContainer {
-        height: 100%;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    .slidingTextContainer{
+    .slidingTextContainer {
         position: absolute;
         font-size: 50vh;
         bottom: -110px;
@@ -64,5 +56,12 @@
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
+    }
+
+    .imageContainer {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }
