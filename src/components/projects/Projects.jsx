@@ -84,7 +84,7 @@ const Single = ({item}) => {
         </section>  
     );
 };
-//Contolling the motionof each project
+//Contolling the motion of each project
 const Projects = () => {
     const ref = useRef();
 
