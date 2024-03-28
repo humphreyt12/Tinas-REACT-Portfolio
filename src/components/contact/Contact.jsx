@@ -7,12 +7,16 @@ const Contact = () => {
             <div className="textContainer">
                 <h1>Let's work together</h1>
                 <div className="item">
-                    <h2>Mail</h2>
+                    <h2>Email</h2>
+                    <a target ="_blank" href="mailto:humphrey14t@gmail.com">
                     <span>humphrey14t@gmail.com</span>
+                    </a>
                 </div>
                 <div className="item">
-                    <h2>Location</h2>
-                    <span>Sunshine State ☀️</span>
+                    <h2>GitHub</h2>
+                    <a target ="_blank" href="https://github.com/humphreyt12">
+                    <span>@humphreyt12</span>
+                    </a>
                 </div>
             </div>
             <div className="formContainer">

@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="contact">
                     <a target = "_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="Tina's LinkedIn Link" /></a>
                     <a target = "_blank" href="https://github.com/humphreyt12"><img src="/github.png" alt="Tina's Github Profile Link" /></a>
-                    <a target = "_blank" href="humphrey14t@gmail.com"><img src="/mail.png" alt="Mail Link" /></a>
+                    <a target = "_blank" href="mailto:humphrey14t@gmail.com"><img src="/mail.png" alt="Mail Link" /></a>
                 </div>
             </div>
         </div>
