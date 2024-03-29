@@ -16,7 +16,7 @@ const y = useTransform(scrollYProgress, [0,1], ["0%", "-300%"]);
                 <motion.div className="textContainer" style={{y}}>
                     <h2>About Me</h2>
                     <p>
-                    Welcome, I am happy to have you here! My name is Tina and I from south Florida with a Jamaican background 🇯🇲. 
+                    Welcome, I am happy to have you here! My name is Tina and I am from Florida with a Jamaican background 🇯🇲. 
                     I am full-stack web developer student at University of Central Florida's coding bootcamp. 
                     Prior to the bootcamp, I studied Java, Python and Object Oriented Programming from my Business Technology minor at University of Miami (Go Canes 💚🧡!). 
                     I have a Master's of Science in Leadership & Management with a concentration in HR from Purdue Global. I currently work at First Light HomeCare ☘️ as a HR Specialist. 
