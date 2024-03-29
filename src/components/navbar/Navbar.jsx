@@ -19,9 +19,9 @@ const Navbar = () => {
                 >TH
                 </motion.span>
                 <div className="contact">
-                    <a target ="_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="LinkedIn Link"/></a>
-                    <a target ="_blank" href="https://github.com/humphreyt12"><img src="/github.png" alt="Github Profile Link"/></a>
-                    <a target ="_blank" href="mailto:humphrey14t@gmail.com"><img src="/mail.png" alt="Mail Link"/></a>
+                    <a target ="_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="LinkedIn"/></a>
+                    <a target ="_blank" href="https://github.com/humphreyt12"><img src="/github.png" alt="Github"/></a>
+                    <a target ="_blank" href="mailto:humphrey14t@gmail.com"><img src="/mail.png" alt="Mail"/></a>
                 </div>
             </div>
         </div>
