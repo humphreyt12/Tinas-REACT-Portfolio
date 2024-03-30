@@ -27,14 +27,16 @@
         }
         
         .contact{
-            display: flex;
+            position: relative;
             gap: 20px;
-    
+            top: 0px;
+            right: 100px;
             
             img{
+                z-index: 10000;
+                position: relative;
                 width: 18px;
                 height: 18px;
-                
             }
         }
     }

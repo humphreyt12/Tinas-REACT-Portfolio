@@ -16,8 +16,8 @@ const Navbar = () => {
                 initial={{ opacity: 0, scale: 0.5 }} 
                 animate={{ opacity: 1, scale: 1 }} 
                 transition={{ duration: 0.5 }}
-                >TH
-                </motion.span>
+                >TH 
+                </motion.span> 
                 <div className="contact">
                     <a target ="_blank" href="https://www.linkedin.com/in/tinahumphrey/"><img src="/linkedin.png" alt="LinkedIn"/></a>
                     <a target ="_blank" href="https://github.com/humphreyt12"><img src="/github.png" alt="Github"/></a>
