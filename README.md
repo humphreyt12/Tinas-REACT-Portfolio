@@ -15,7 +15,7 @@ A portfolio showcasing my skills and projects for furture employers using React.
 
 ## Website
 
-tinasreactportfolio.netlify.app
+[Click here to view the website](https://tinasreactportfolio.netlify.app)
 
 ## Installation
 Run the following command `npm i` to install the dependencies
