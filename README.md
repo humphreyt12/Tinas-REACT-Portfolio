@@ -9,7 +9,9 @@
  * [License](#License)
 
 ## Description
-A portfolio showcasing my skills and projects for furture employers using React . 
+A portfolio showcasing my skills and projects for furture employers using React.
+
+<img src="./public/portfolioscreenshot.png" alt= "Screen Shot of Tina's React Portfoliio"/>
 
 ## Website
 
