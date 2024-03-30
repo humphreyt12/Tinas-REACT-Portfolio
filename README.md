@@ -9,10 +9,11 @@
  * [License](#License)
 
 ## Description
-A portfolio showcasing my skills and projects using React. 
+A portfolio showcasing my skills and projects for furture employers using React . 
 
 ## Website
-The link for the project will be added soon.
+
+tinasreactportfolio.netlify.app
 
 ## Installation
 Run the following command `npm i` to install the dependencies
@@ -27,8 +28,10 @@ Run the following command `npm i` to install the dependencies
 After installing the dependencies, run the command, `npm start` in your terminal and type `localhost:3000` in your 
 browswer
 
+Click the sidbear button to scroll to different sections of the portfolio
+
 ## Collaboration
 This project was collaborated with the help of Lama Dev's Reat Project for Beginners
 
 ## License
-This project uses MIT lincense 
+This project uses MIT license 
