@@ -5,7 +5,7 @@
  * [Website](#Website)
  * [Installation](#Installation)
  * [Usage](#Usage)
- * [Collaboration] (#Collaboration)
+ * [Collaboration](#Collaboration)
  * [License](#License)
 
 ## Description

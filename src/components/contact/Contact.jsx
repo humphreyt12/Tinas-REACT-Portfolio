@@ -67,9 +67,9 @@ const Contact = () => {
                     transition={{ delay: 3, duration: 1 }}>
                     <svg width="450px" height="450px" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
                         <motion.path 
-                        stroke-width={0.2}
-                        fill="none"
-                        stroke-linecap="round"
+                        stroke-width="2"
+                        fill="orange"
+                        stroke-linecap="round" 
                         stroke-linejoin="round"
                         initial={{ pathLength: 0 }}
                         animate={isInView && { pathLength: 1 }}
