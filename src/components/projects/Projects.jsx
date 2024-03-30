@@ -43,8 +43,8 @@ const items = [
         id: 6,
         title: "PWA Text Editor",
         img: "public/TextEditor.png",
-        desc:"Built a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
-        link: "pwa-text-editor-awkt.onrender.com",
+        desc: "Built a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
+        link: "https://pwa-text-editor-awkt.onrender.com/",
     },
     {
         id: 7,

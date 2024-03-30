@@ -10,6 +10,7 @@ import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Cursor from "./components/cursor/Cursor";
 
+
 const App = () => {
     return (
     <div>

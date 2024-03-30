@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .about{
     height: 100%;
     background: linear-gradient(180deg, #0c0c1d, #111132);
@@ -21,24 +23,28 @@
                 color: rebeccapurple;
                 text-transform: uppercase;
                 letter-spacing: 10px;
-
              }   
-            
-            
-        } 
-        
+               
+        }    
        
     }
-    .imageContainer {
+    .imageContainer{
         height: 75%;
         position: absolute;
         top: 0;
         right: 0;
+// Need help with sizing the image for mobile
+        @include mobile{
+            height: 40%;
+            width: 40%;
+        }
 
-        img {
+        img{
             width: 100%;
             height: 100%;
             object-fit: cover;
+
+          
         }
     }
        

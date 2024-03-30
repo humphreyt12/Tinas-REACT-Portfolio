@@ -65,14 +65,14 @@
         }
     }
 }
-
+// Need help with image container for project and mobile
     .imageContainer {
         height: 100%;
         position: absolute;
         top: 0;
         right: 0;
 
-        @include mobile {
+        @include mobile{
             height: 50%;
             width: 100%;
             top: unset;
@@ -80,7 +80,7 @@
         }
 
         img{
-            width: 100%;
+            width: 90%;
             height: 80%;
             object-fit: cover;
         }
