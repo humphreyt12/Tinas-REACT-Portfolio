@@ -58,7 +58,7 @@ const items = [
         title: "Gallery of Journeys",
         img: "/galleryofjourneys.png",
         desc: "A subscription service where users can buy photos from photographers of different places or landmarks in various cities and countries.",
-        link: "gallery-of-journeys.onrender.com/",
+        link: "https://gallery-of-journeys.onrender.com/",
     },
 ];
 //Displays each Project as a Single item on a page
