@@ -33,7 +33,7 @@ browswer
 Click the sidbear button to scroll to different sections of the portfolio
 
 ## Collaboration
-This project was collaborated with the help of Lama Dev's Reat Project for Beginners
+This project was collaborated with the help of Lama Dev's React Project for Beginners
 
 ## License
 This project uses MIT license 
