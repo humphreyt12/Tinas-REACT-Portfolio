@@ -30,7 +30,7 @@ const y = useTransform(scrollYProgress, [0,1], ["0%", "-300%"]);
                 </motion.div>   
             </div>
             <motion.div className="imageContainer" style={{y}}>
-                <img src="/mountains.jpg" alt="Peru Mountains" />
+                <img src="/Peru.png" alt="Peru Mountains" />
             </motion.div> 
         </div>
     );

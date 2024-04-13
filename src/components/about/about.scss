@@ -33,7 +33,7 @@
         position: absolute;
         top: 0;
         right: 0;
-// Need help with sizing the image for mobile
+
         @include mobile{
             height: 40%;
             width: 40%;
@@ -49,3 +49,5 @@
     }
        
 }
+  
+

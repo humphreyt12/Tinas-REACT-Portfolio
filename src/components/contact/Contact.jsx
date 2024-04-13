@@ -41,7 +41,7 @@ const Contact = () => {
     };
 
     return (
-        <motion.div className="contact" variants={variants} initial= "initial" whileInView="animate">
+        <motion.div ref={ref} className="contact" variants={variants} initial= "initial" whileInView="animate">
             <motion.div className="textContainer" variants={variants}>
                 <motion.h1 variants={variants}>Let's work together</motion.h1>
                 <motion.div className="item" variants={variants}>
@@ -67,10 +67,8 @@ const Contact = () => {
                     transition={{ delay: 3, duration: 1 }}>
                     <svg width="450px" height="450px" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
                         <motion.path 
-                        stroke-width="2"
-                        fill="orange"
-                        stroke-linecap="round" 
-                        stroke-linejoin="round"
+                        stroke-width={0.2}
+                        fill="none"
                         initial={{ pathLength: 0 }}
                         animate={isInView && { pathLength: 1 }}
                         transition={{ duration: 3}}
@@ -85,23 +83,23 @@ const Contact = () => {
                         13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 
                         15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 
                         19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 
-                        19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" >
-                        </motion.path>
+                        19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" 
+                        />
                     </svg>
                 </motion.div>
                 {/* Controlls the motion after the Phone Svg Appears */}
                 <motion.form 
                     ref={formRef}
                     onSubmit={sendEmail}
-                    initial={{opacity: 0}} 
-                    whileInView={{opacity: 1}} 
+                    initial={{ opacity: 0 }} 
+                    whileInView={{ opacity: 1 }} 
                     transition={{ delay: 4, duration: 1}}>
                     <input type="text" required placeholder="Name" name="name"/>
                     <input type="email" required placeholder="Email" name="email"/>
                     <textarea rows={8} placeholder="Message" name="message"/>
                     <button>Submit</button>
-                    {error && "Error"}
-                    {success && "Success"}
+                    {error && "Error, Please try again"}
+                    {success && "Your message was successfully sent!"}
                 </motion.form>
             </div>
         </motion.div>

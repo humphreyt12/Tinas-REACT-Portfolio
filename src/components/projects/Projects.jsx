@@ -50,9 +50,16 @@ const items = [
         id: 7,
         title: "Weather Dashboard",
         img: "/WeatherDashboard.png",
-        desc:"Built a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. The dashboard is for a traveler to see the weather outlook for multiple cities so that any traveler can plan a trip accordingly.",
+        desc: "Built a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. The dashboard is for a traveler to see the weather outlook for multiple cities so that any traveler can plan a trip accordingly.",
         link: "https://humphreyt12.github.io/Weather-Dashboard/",
     },  
+    {
+        id: 8,
+        title: "Gallery of Journeys",
+        img: "/galleryofjourneys.png",
+        desc: "A subscription service where users can buy photos from photographers of different places or landmarks in various cities and countries.",
+        link: "gallery-of-journeys.onrender.com/",
+    },
 ];
 //Displays each Project as a Single item on a page
 const Single = ({item}) => {
