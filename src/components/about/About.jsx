@@ -25,7 +25,6 @@ const y = useTransform(scrollYProgress, [0,1], ["0%", "-300%"]);
                     Contact me below if you want to collaborate together and join my team! 
                     I thrive in ambitious and passionate roles that allow me to contribute my solution-focused and innovative mindset. My hobbies include traveling, journaling, ZUMBA, kickboxing, reading, and watching movies. ✈️📖💃🏾🥊🎬
                     Please scroll down or click the sidebar to view the project section to see some samples of my work. 
-                    
                     </p>
                 </motion.div>   
             </div>
